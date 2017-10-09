@@ -27,6 +27,6 @@ public abstract class VirtualPet {
 
 	@Override
 	public String toString() {
-		return ("[" + name + "] " + description);
+		return (name + " the " + description + " , ");
 	}
 }

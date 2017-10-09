@@ -103,8 +103,8 @@ public class VirtualPetShelter {
 
 	}
 
-	public void playOne(VirtualPet singledOut) {
-		singledOut.play();
+	public void playOne(VirtualPet playingWithOnePet) {
+		playingWithOnePet.play();
 	}
 
 	public void adoptPet(VirtualPet pet) {
